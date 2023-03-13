@@ -1,0 +1,58 @@
+/* additional classes */
+
+
+.task__title {
+  display: flex;
+  text-align: center;
+  font-size: 28px;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.task__list {
+  display: flex;
+  flex-direction: row;
+  background-color: #a8a8a8;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.task__item {
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #ff6b0a;
+  transition: background-color 250ms;
+}
+
+.task__item:hover,
+.task__item:focus {
+  background-color: black;
+}
+
+.task__link {
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  color: #212121;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: color 250ms;
+}
+
+.task__link:hover,
+.task__link:focus {
+color: #ffffff;
+}
+
