@@ -1,6 +1,5 @@
 /* additional classes */
 
-
 .task__title {
   display: flex;
   text-align: center;
@@ -43,7 +42,7 @@
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 24px;
   color: #212121;
   padding-top: 15px;
@@ -53,6 +52,30 @@
 
 .task__link:hover,
 .task__link:focus {
-color: #ffffff;
+  color: #ffffff;
 }
 
+.goback-btn {
+  display: flex;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  color: #212121;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: color 250ms;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 100px;
+  background-color: #ff6b0a;
+  transition: background-color 250ms;
+}
+
+.goback-btn:hover,
+.goback-btn:focus {
+  color: #ffffff;
+  background-color: black;
+}
